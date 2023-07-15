@@ -1,0 +1,771 @@
+{
+    "songs": [
+        {
+            "category": "Trending Songs",
+            "songList": [
+                {
+                    "type":"music",
+                    "title": "Maan Meri Jaan",
+                    "artist": "King",
+                    "year": 2022,
+                    "movie": "Movie",
+                    "poster": "images/trending/Champagne.jpg",
+                    "song":"audio/Maan Meri Jaan.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Apna Bana Le",
+                    "artist": "Arijit Singh & Sachin-Jigar",
+                    "year": 2023,
+                    "movie": "Bhediya",
+                    "poster": "images/trending/Bhediya.jpg",
+                    "song":"audio/Apna Bana Le.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Pani Di Gal",
+                    "artist": "Maninder Buttar",
+                    "year": 2021,
+                    "movie": "Movie",
+                    "poster": "images/trending/pani.webp",
+                    "song":"audio/Pani Di Gal.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Oh Sanam",
+                    "artist": "Tony Kakkar,Shreya Ghoshal",
+                    "year": 2021,
+                    "movie": "Movie",
+                    "poster": "images/trending/Oh-Sanam.jpg",
+                    "song":"audio/Oh Sanam.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Galat",
+                    "artist": "Asees Kaur",
+                    "year": 2021,
+                    "movie": "Movie",
+                    "poster": "images/trending/galat.webp",
+                    "song":"audio/Galat.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Nadiyon Paar",
+                    "artist": "Sachin-Jigar,Rashmeet Kaur,Shamur,IP Singh",
+                    "year": 2021,
+                    "movie": "Movie",
+                    "poster": "images/trending/nadiyon.webp",
+                    "song":"audio/Nadiyon Paar.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Pathaan",
+                    "artist": "Vishal-Shekhar,Sanchit Balhara,Ankit Balhara",
+                    "year": 2023,
+                    "movie": "Pathaan",
+                    "poster": "images/trending/pathaan.jpg",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Main Khiladi",
+                    "artist": "Udit Narayan,Abhijeet Bhattacharya,Tanishk Bagchi",
+                    "year": 2023,
+                    "movie": "Selfiee",
+                    "poster": "images/trending/selfiee.jpg",
+                    "song":"audio/Main Khiladi.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Ikk Number",
+                    "artist": "Kulshan Sandhu,Pav Dharia",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/trending/ikk.jpg",
+                    "song":"audio/Pani Di Gal.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Piya Re",
+                    "artist": "Darshan Raval",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/trending/piyare.jpg",
+                    "song":"audio/Oh Sanam.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Gill Skill, Vol. 1",
+                    "artist": "Jassie Gill, Munawar Faruqui,Gurlez Akhtar",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/trending/gill.jpg",
+                    "song":"audio/Galat.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Gallan Mithiyan",
+                    "artist": "Anmol Daniel",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/trending/gallan.jpg",
+                    "song":"audio/Nadiyon Paar.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Besharam Rang ",
+                    "artist": "Vishal-Shekhar,Shilpa Rao,Caralisa Monteiro",
+                    "year": 2023,
+                    "movie": "Pathaan",
+                    "poster": "images/trending/besharam.jpg",
+                    "song":"audio/Maan Meri Jaan.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Lut Gaye",
+                    "artist": "Jubin Nautiyal",
+                    "year": 2021,
+                    "movie": "Radhe Shyam",
+                    "poster": "images/trending/lut_gaya.jpg",
+                    "song":"audio/Apna Bana Le.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Sawan Mein Lag Gayi Aag",
+                    "artist": "Mika Singh, Neha Kakkar, Badshah",
+                    "year": 2020,
+                    "movie": "Ginny Weds Sunny",
+                    "poster": "images/trending/sawan.jpg",
+                    "song":"audio/Pani Di Gal.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Raataan Lambiyan",
+                    "artist": "Jubin Nautiyal, Asees Kaur",
+                    "year": 2021,
+                    "movie": "Shershaah",
+                    "poster": "images/trending/rattan.jpg",
+                    "song":"audio/Oh Sanam.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Paani Paani",
+                    "artist": "Badshah, Aastha Gill",
+                    "year": 2021,
+                    "movie": "Movie",
+                    "poster": "images/trending/pani.webp",
+                    "song":"audio/Galat.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Tera Ban Jaunga",
+                    "artist": "Akhil Sachdeva, Tulsi Kumar",
+                    "year": 2019,
+                    "movie": "Kabir Singh",
+                    "poster": "images/trending/Tera_Ban_jaunga.jpg",
+                    "song":"audio/Nadiyon Paar.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Mera Wala Dance",
+                    "artist": "Neha Kakkar, Nakash Aziz",
+                    "year": 2018,
+                    "movie": "Simmba",
+                    "poster": "images/trending/mere_wala_dance.jpg",
+                    "song":"audio/Maan Meri Jaan.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Tere Bina",
+                    "artist": "Salman Khan, Jacqueline Fernandez",
+                    "year": 2020,
+                    "movie": "Movie",
+                    "poster": "images/trending/tere_bina.jpg",
+                    "song":"audio/Apna Bana Le.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Saiyaan Ji",
+                    "artist": "Yo Yo Honey Singh, Neha Kakkar",
+                    "year": 2021,
+                    "movie": "Movie",
+                    "poster": "images/trending/Saiyaan-Ji-Ft-Nushrratt.jpg",
+                    "song":"audio/Pani Di Gal.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Ek Tarfa",
+                    "artist": "Darshan Raval",
+                    "year": 2020,
+                    "movie": "Movie",
+                    "poster": "images/trending/Ek-Tarfa.jpg",
+                    "song":"audio/Oh Sanam.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Bhula Dunga",
+                    "artist": "Darshan Raval",
+                    "year": 2020,
+                    "movie": "Movie",
+                    "poster": "images/trending/Bhula-Dunga.jpg",
+                    "song":"audio/Galat.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Naach Meri Rani",
+                    "artist": "Guru Randhawa, Nikhita Gandhi",
+                    "year": 2020,
+                    "movie": "Movie",
+                    "poster": "images/trending/Naach-Meri.jpg",
+                    "song":"audio/Nadiyon Paar.mp3"
+                }
+                
+            ]
+        },
+        {
+            "category": "New Releases",
+            "songList": [
+                {
+                    "type":"music",
+                    "title": "Pathaan",
+                    "artist": "Vishal-Shekhar,Sanchit Balhara,Ankit Balhara",
+                    "year": 2023,
+                    "movie": "Pathaan",
+                    "poster": "images/newReleases/pathaan.jpg",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Naiyo Lagda",
+                    "artist": "Himesh Reshammiya, Kamaal Khan, Palak Muchhal",
+                    "year": 2023,
+                    "movie": "Kisi Ka Bhai Kisi Ki Jaan ",
+                    "poster": "images/newReleases/Kisi-Ka-Bhai-Kisi-Ki-Jaan.jpg",
+                    "song":"audio/Naiyo Lagda.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Dil Hai Bholaa",
+                    "artist": "Amit Mishra, Ravi Basrur, S. D. Burman ",
+                    "year": 2023,
+                    "movie": "Bholaa",
+                    "poster": "images/newReleases/Dil-Hai-Bholaa.jpg",
+                    "song":"audio/Dil Hai Bholaa.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Tere Pyaar Mein",
+                    "artist": "Arijit Singh, Arijit Singh, Nikhita Gandhi, Amitabh Bhattacharya",
+                    "year": 2023,
+                    "movie": "Tu Jhoothi Main Makkaar",
+                    "poster": "images/newReleases/Tu-Jhoothi-Main-Makkaar.jpg",
+                    "song":"audio/Tere Pyaar Mein.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Main Khiladi",
+                    "artist": "Udit Narayan,Abhijeet Bhattacharya,Tanishk Bagchi",
+                    "year": 2023,
+                    "movie": "Selfiee",
+                    "poster": "images/newReleases/selfiee.jpg",
+                    "song":"audio/Main Khiladi.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Munda Sona Hoon Main",
+                    "artist": "Pritam, Diljit Dosanjh, Nikhita Gandhi, Kumaar",
+                    "year": 2023,
+                    "movie": "Shehzada ",
+                    "poster": "images/newReleases/Shehzada.jpg",
+                    "song":"audio/Munda Sona Hoon Main.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Tu Mile Dil Khile",
+                    "artist": "Stebin Ben, Asees Kaur  ",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/Tu-Mile-Dil-Khile.jpg",
+                    "song":"audio/Pathaan.mp3"
+                    
+                },
+                {
+                    "type":"music",
+                    "title": "Dotara",
+                    "artist": "Jubin Nautiyal, Payal Dev, Vayu",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/Dotara-Hindi.jpg",
+                    "song":"audio/Naiyo Lagda.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Achha Sila Diya",
+                    "artist": "Achha Sila Diya  by Jaani, B Praak, Nikhil-Vinay",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/Achha-Sila-Diya.jpg",
+                    "song":"audio/Dil Hai Bholaa.mp3"
+                },
+                {
+                    
+                    "type":"music",
+                    "title": "Apna Bana Le",
+                    "artist": "Arijit Singh & Sachin-Jigar",
+                    "year": 2023,
+                    "movie": "Bhediya",
+                    "poster": "images/newReleases/Bhediya.jpg",
+                    "song":"audio/Tere Pyaar Mein.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Ikk Number",                   
+                    "artist": "Kulshan Sandhu,Pav Dharia",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/ikk.jpg",
+                    "song":"audio/Main Khiladi.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Yeh Raat ",
+                    "artist": "Hitesh Sonik, Sunidhi Chauhan ft. Hitesh Sonik & Sunidhi Chauhan",                  
+                    "year": 2023,
+                    "movie": "Zwigato",
+                    "poster": "images/newReleases/Yeh-Raat.jpg",
+                    "song":"audio/Munda Sona Hoon Main.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Piya Re",
+                    "artist": "Darshan Raval",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/piyare.jpg",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Gill Skill, Vol. 1",
+                    "artist": "Jassie Gill, Munawar Faruqui,Gurlez Akhtar",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/gill.jpg",
+                    "song":"audio/Naiyo Lagda.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Gallan Mithiyan",
+                    "artist": "Anmol Daniel",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/gallan.jpg",
+                    "song":"audio/Dil Hai Bholaa.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Besharam Rang ",
+                    "artist": "Vishal-Shekhar,Shilpa Rao,Caralisa Monteiro",
+                    "year": 2023,
+                    "movie": "Pathaan",
+                    "poster": "images/newReleases/besharam.jpg",
+                    "song":"audio/Tere Pyaar Mein.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Bairiya",
+                    "artist": "Arijit Singh, Amitabh Bhattacharya, Goldie Sohel",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/Bairiya.jpg",
+                    "song":"audio/Main Khiladi.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Soniye Je ",
+                    "artist": "Vishal Mishra",
+                    "year": 2023,
+                    "movie": "Gumraah",
+                    "poster": "images/newReleases/Soniye-Je.jpg",
+                    "song":"audio/Munda Sona Hoon Main.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Deewaane",
+                    "artist": "Aditya Yadav, Tanishk Bagchi, Stebin Ben, Kunaal Vermaa",
+                    "year": 2023,
+                    "movie": "Selfiee",
+                    "poster": "images/newReleases/Deewaane.jpg",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Jaadui ",
+                    "artist": "Pritam, Jubin Nautiyal, Amitabh Bhattacharya ",
+                    "year": 2023,
+                    "movie": "Tu Jhoothi Main Makkaar",
+                    "poster": "images/newReleases/Jaadui.jpg",
+                    "song":"audio/Naiyo Lagda.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Rabba Janda",
+                    "artist": "Jubin Nautiyal",
+                    "year": 2023,
+                    "movie": "Mission Majnu",
+                    "poster": "images/newReleases/Mission-Majnu.jpg",
+                    "song":"audio/Dil Hai Bholaa.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Aga Naga",
+                    "artist": "A.R. Rahman, Shakthisree Gopalan",
+                    "year": 2023,
+                    "movie": "Ponniyin Selvan Part-2",
+                    "poster": "images/newReleases/Aga-Naga.jpg",
+                    "song":"audio/Tere Pyaar Mein.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Tu Mera",
+                    "artist": "Tulsi Kumar, Prasoon Srivastava",
+                    "year": 2023,
+                    "movie": "Movie",
+                    "poster": "images/newReleases/Tu-Mera.jpg",
+                    "song":"audio/Main Khiladi.mp3"
+                },
+                {
+                    "type":"music",
+                    "title": "Ghar Nahi Jaana",
+                    "artist": " Tanishk Bagchi, Armaan Malik, Zahrah S Khan, Salma Agha",
+                    "year": 2023,
+                    "movie": "Gumraah",
+                    "poster": "images/newReleases/Ghar-Nahi-Jaana.jpg",
+                    "song":"audio/Munda Sona Hoon Main.mp3"
+                }
+            ]
+        },
+        {
+            "category": "Top Charts",
+            "songList": [
+                {
+                    "type":"playlist",
+                    "title": "Hindi Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/hindi50.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Panjabi Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/panjabi50.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "International Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/international50.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "90s Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/international50.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Punjabi Romance Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/romance.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "EDM - Top 30",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/edm.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Bhakti Top 50 - Hindi",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/bhakti.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Punjabi Party Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/party.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Hip Hop - Top 30",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/hiphop.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Hindi Romance Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/hindiRomance.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Dance - Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/dance.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Daily Top 30 - English",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/daily.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Viral Hits - English",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/viral-hits.webp",
+                    "song":"audio/Pathaan.mp3"
+                },{
+                    "type":"playlist",
+                    "title": "Hindi Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topChats/hindi50.webp",
+                    "song":"audio/Pathaan.mp3"
+                }
+            ]
+        },
+        {
+            "category": "Top Searched Artists",
+            "songList": [
+                {
+                    "type":"playlist",
+                    "title": "Best Of Arijit Singh",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/arjit-singh.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best Of Neha Kakkar",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/neha-kakkar.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best Of A.R. Rahman",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/ar-raheman.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best of Alan Walker",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/alan.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best of Ed Sheeran",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/ed.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best Of Kaka",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/kaka.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best of Karan Aujla",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/karan.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best of Jubin Nautiyal",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/jubin.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best of Justin Bieber",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/justin.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best of Sidhu Moosewala",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/artists/sidhu-moose-wala.webp",
+                    "song":"audio/Pathaan.mp3"
+                }
+                
+            ]
+        },
+        {
+            "category": "Top Playlists",
+            "songList": [
+                {
+                    "type":"playlist",
+                    "title": "Heartbreak Hits",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/Heartbreak.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Best of Sidhu Moosewala",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/best-of.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Viral Hits - English",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/viral-hits.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Ultimate Drive",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/ultimate.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Dance 101",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/panjabi.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Dance 101",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/dance101.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "2000s Happy Hits",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/2001s.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Punjabi Romance Top 50",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/romance.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "International Pop Hits",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/pop-hits.webp",
+                    "song":"audio/Pathaan.mp3"
+                },
+                {
+                    "type":"playlist",
+                    "title": "Reelin' It In",
+                    "artist": "none",
+                    "year": 2023,
+                    "movie": "none",
+                    "poster": "images/topPlaylist/reelint.webp",
+                    "song":"audio/Pathaan.mp3"
+                }
+                
+            ]
+        }
+    ]
+}

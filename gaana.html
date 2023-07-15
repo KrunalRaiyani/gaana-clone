@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaana - clone project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"
+      integrity="sha512-Eezs+g9Lq4TCCq0wae01s9PuNWzHYoCMkE97e2qdkYthpI0pzC3UGB03lgEHn2XM85hDOUF6qgqqszs+iXU4UA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="gaana.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- navbar start -->
+      <nav class="navbar">
+        <!-- left section start -->
+        <div class="left-section">
+          <a href="#" class="menu">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+          <div class="logo">
+            <img
+              src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/qvnfea7aukiyo5ccn9bs"
+              alt="Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/01/Gaana_logo.svg"
+              alt="Logo"
+            />
+          </div>
+          <div class="hide-langauge">
+            <p>Hindi,English</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="search-section">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="search"
+              class="search"
+              placeholder="Search Artists,Songs,Albums"
+            />
+          </div>
+        </div>
+        <!-- left section end -->
+
+        <!-- right section start -->
+        <div class="right-section">
+          <a href="#none" class="top-button">Go Ad Free<span>NEW</span></a>
+          <a href="#none" class="top-button">Get Ganna Plus</a>
+          <a href="#none"><i class="fa-solid fa-globe"></i></a>
+          <a href="#none"><i class="fa-regular fa-sun"></i></a>
+          <a href="#none" class="sign-up">Log In / Sign Up</a>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- category section start -->
+      <div class="category">
+        <a href="#">All</a>
+        <a href="#">Trending Songs</a>
+        <a href="#">New Songs</a>
+        <a href="#">Old Songs</a>
+        <a href="#">Moods & Genres</a>
+        <a href="#">Album</a>
+        <a href="#">Radio</a>
+        <a href="#">Podcast</a>
+        <a href="#">My Music</a>
+      </div>
+    </header>
+    <main class="main-container" id="mainContainer">
+      <div class="slide-container">
+        <div class="slid-card">
+          <img src="images/slider/slide8.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide1.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide2.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide3.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide4.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide5.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide6.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide7.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide8.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide1.webp" alt="" />
+        </div>
+        <div class="slid-card">
+          <img src="images/slider/slide2.webp" alt="" />
+        </div>
+      </div>
+
+      <!-- <div class="song-category">
+        <h2 class="category-name">Trending Songs</h2>
+        <div class="song-list">
+          <i class="fa-solid fa-chevron-left scroll-btn scroll-left" onclick="scrolLeft(event.target)"></i>
+          <i class="fa-solid fa-chevron-right scroll-btn scroll-right" onclick="scrollRight(event.target)"></i>
+          <div class="song-card">
+            <div class="img-container">
+              <img
+              src="https://a10.gaanacdn.com/gn_img/albums/a7LWBaz3zX/LWBkQx9Dbz/size_m.jpg"
+              alt="Poster"
+            />
+            <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <h4 class="song-name">Pathaan</h4>
+          </div>
+        </div>
+      </div> -->
+    </main>
+
+    <!-- playlist and artist song list -->
+
+    <main class="wrapper">
+      <i class="fa-solid fa-xmark" id="close-playlist"></i>
+      <section class="hide-container">
+        <div class="img-container">
+          <img
+            src="images/newReleases/Achha-Sila-Diya.jpg"
+            class="main-poster"
+            alt="poster"
+          />
+          <h1 class="playlist-name">Hindi Sad Songs</h1>
+          <div class="play-contaienr">
+            <button class="play-btn">Play All</button>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </section>
+      <section class="upper-section">
+        <div class="song-poster">
+          <img
+            src="images/newReleases/Achha-Sila-Diya.jpg"
+            class="main-poster"
+            alt="poster"
+          />
+        </div>
+        <div class="detail-container">
+          <h3 class="playlist-category">Heartbreak Hits Songs</h3>
+          <h1 class="playlist-name">Hindi Sad Songs</h1>
+          <p class="total-song-no">38 Tracks</p>
+          <p class="playlist-creator">Playlist created by Gaana</p>
+          <div class="play-contaienr">
+            <button class="play-btn">Play All</button>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </section>
+      <section class="lower-section">
+        <div class="song-list-head">
+          <div class="empaty">1</div>
+          <div class="empaty-div">
+            <div class="empaty">empaty</div>
+            <div class="track">Track</div>
+            <div class="artist">Artists</div>
+          </div>
+          <div class="album">Album</div>
+          <div class="duration">Duration</div>
+        </div>
+
+        <div class="card-wraper">
+          <div class="list-song-card">
+            <span class="index">1</span>
+            <div class="song-detail">
+              <img src="images/newReleases/pathaan.jpg" alt="" />
+              <div class="name-container">
+                <h4 class="song-name">Mann Bharryaa 2.0</h4>
+                <p class="artist-name">Arijit Singh</p>
+              </div>
+            </div>
+            <p class="movie-name">Mann Bharryaa 2.0</p>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <span class="list-song-duration">00:00</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- upcoing song list  -->
+    <main class="up-song-container">
+      <section class="up-song-card">
+        <img src="images/newReleases/pathaan.jpg" alt="" />
+        <div class="song-detail">
+          <div class="song-name-div">
+            <h4 class="song-name">Pathaan</h4>
+            <p class="artist-name">
+              Vishal-Shekhar,Sanchit Balhara,Ankit Balhara
+            </p>
+          </div>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="song-slider">
+          <span class="current-time">00:00</span>
+          <input type="range" value="0" class="slider" />
+          <span class="song-duration">00:00</span>
+        </div>
+        <div class="list-cantrols">
+          <i class="fa-solid fa-repeat loop"></i>
+          <i class="fa-solid fa-backward-step" id="list-backward"></i>
+          <i class="fa-solid fa-circle-play" id="list-play"></i>
+          <i class="fa-solid fa-forward-step" id="list-forward"></i>
+          <i class="fa-solid fa-shuffle"></i>
+        </div>
+      </section>
+      <section class="up-songs">
+        <div class="up-list-head">
+          <h2 id="quets">Queue</h2>
+          <span class="save-playlist">Save Playlist</span>
+          <span class="clear-playlist">Clear List</span>
+          <i class="fa-solid fa-chevron-down" id="go-back"></i>
+        </div>
+        <div class="song-list">
+          <!-- <div class="up-song-list" draggable="true">
+            <i class="fa-solid fa-bars"></i>
+            <img src="images/newReleases/pathaan.jpg" alt="" />
+            <div class="list-song-detail">
+              <div class="list-song-name">Pathaan</div>
+              <div class="list-movie">Pathaan</div>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <span class="list-song-duration">00:00</span>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="row1">
+          <h1>Bas Bajna Chahiye Gaana</h1>
+          <p>
+            Gaana is the one-stop solution for all your music needs. Gaana
+            offers you free, unlimited access to over 30 million Hindi Songs,
+            Bollywood Music, English MP3 songs, Regional Music & Mirchi Play.
+          </p>
+        </div>
+        <div class="row2">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="row3">
+          <a href="#">Advertise on Gaana.com</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Partners</a>
+          <a href="#">Sitemap</a>
+          <a href="#">FAQ</a>
+        </div>
+        <div class="row4">
+          <h3>Quicklinks</h3>
+          <div class="links">
+            <ul class="link-box">
+              <li class="link-head">Albums</li>
+              <li>English</li>
+              <li>Hindi</li>
+              <li>Telugu</li>
+              <li>Punjabi</li>
+              <li>Tamil</li>
+              <li>Kannada</li>
+              <li>Bhojpuri</li>
+              <li>Malayalam</li>
+              <li>Marathi</li>
+              <li>Bengali</li>
+              <li>Gujarati Songs</li>
+              <li>Haryanvi</li>
+              <li><a href="#">View all</a></li>
+            </ul>
+            <ul class="link-box">
+              <li class="link-head">Genres</li>
+              <li>Bollywood Songs</li>
+              <li>Devotional Songs</li>
+              <li>Ghazals</li>
+              <li>Bhajan</li>
+              <li>Patriotic Songs</li>
+              <li>Kids Songs</li>
+              <li>Rock Songs</li>
+              <li>Disco Songs</li>
+              <li>Sufi Songs</li>
+              <li>Love Songs</li>
+              <li><a href="#">View all</a></li>
+            </ul>
+            <ul class="link-box">
+              <li class="link-head">Artists</li>
+              <li>Arijit Singh</li>
+              <li>Neha Kakkar</li>
+              <li>Honey Singh</li>
+              <li>Atif Aslam</li>
+              <li>A R Rahman</li>
+              <li>Lata Mangeshkar</li>
+              <li>Kishore Kumar</li>
+              <li>Armaan Malik</li>
+              <li>Sunidhi Chauhan</li>
+              <li>Nusrat Fateh Ali Khan</li>
+              <li>Mohammed Rafi</li>
+              <li>Guru Randhawa</li>
+              <li>Justin Bieber</li>
+              <li>BTS</li>
+              <li><a href="#">View all</a></li>
+            </ul>
+            <ul class="link-box">
+              <li class="link-head">New Releases</li>
+              <li>English Songs</li>
+              <li>Hindi Songs</li>
+              <li>Punjabi Songs</li>
+              <li>Tamil Songs</li>
+              <li>Telugu Songs</li>
+              <li>Kannada Songs</li>
+              <li>Bhojpuri Songs</li>
+              <li>Malayalam Songs</li>
+              <li>Marathi Songs</li>
+              <li>Bengali Songs</li>
+              <li>Haryanvi Songs</li>
+              <li>Gujarati Songs</li>
+              <li>Odia Songs</li>
+              <li>Urdu Songs</li>
+              <li>Rajasthani Songs</li>
+              <li><a href="#">View all</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row5">
+          <p>© Gamma Gaana Ltd. 2023, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- cantrols start -->
+    <section class="cantrols">
+      <input type="range" value="0" id="songSlider" step="0.01" />
+      <!-- lhs section -->
+      <div class="lhs-section">
+        <img
+          src="https://a10.gaanacdn.com/gn_img/albums/a7LWBaz3zX/LWBkQx9Dbz/size_m.jpg"
+          alt="image"
+          class="current-song-img"
+          id="currentSongPoster"
+        />
+        <div class="current-song-detail">
+          <h4 id="current-song">Besharam Rang</h4>
+          <p id="current-song-movie">Pathaan</p>
+        </div>
+        <i class="fa-regular fa-heart hide-cantrole"></i>
+        <i class="fa-solid fa-ellipsis-vertical hide-cantrole"></i>
+      </div>
+
+      <!-- center section -->
+      <div class="center-section">
+        <div class="song-time hide-cantrole">
+          <span id="current-time">00:00</span>
+          <span id="divider">/</span>
+          <span id="song-length">00:00</span>
+        </div>
+        <i class="fa-solid fa-repeat hide-cantrole" id="loop"></i>
+        <i class="fa-solid fa-backward-step hide-cantrole" id="backward"></i>
+        <i class="fa-solid fa-circle-play" id="play"></i>
+        <i class="fa-solid fa-forward-step hide-cantrole" id="forward"></i>
+        <i class="fa-solid fa-shuffle hide-cantrole" id="shuffle"></i>
+      </div>
+
+      <!-- rhs  section -->
+      <div class="rhs-section">
+        <i class="fa-solid fa-volume-high hide-cantrole" id="volume"></i>
+        <div class="volume-container hide-cantrole">
+          <input type="range" id="volume-bar" value="100" />
+        </div>
+        <div class="audio-level hide-cantrole">Audio:High</div>
+        <div class="upcoming-song hide-cantrole">
+          <div>Up Next</div>
+          <div class="up-song-name">Besharam Rang</div>
+        </div>
+        <i class="fa-solid fa-chevron-up" id="upcoming-song-list"></i>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
