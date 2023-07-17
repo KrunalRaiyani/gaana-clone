@@ -82,7 +82,7 @@ setInterval(() => {
 window.addEventListener("load", pageLoad);
 function pageLoad() {
   // fetch data from json
-  let data = fetch("gaana.json");
+  let data = fetch(process.env.JSONDATA);
 
   data
     .then((res) => res.json())
