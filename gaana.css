@@ -1374,8 +1374,9 @@ html {
   } */
 
   .song-category .song-list {
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
 }
+
 
   .up-song-card img {
     max-width: 80%;
@@ -1408,7 +1409,11 @@ html {
 }
 
 /* Extra small devices (phones, 425px and down) */
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 300px) {
+  .song-category .song-list {
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+}
+
   .cantrols .center-section #play {
     translate: 0rem;
 }
