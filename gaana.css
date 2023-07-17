@@ -1188,7 +1188,7 @@ html {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   html {
-    font-size: 54%;
+    font-size: 60%;
   }
 
   /* main page media */
@@ -1302,6 +1302,12 @@ html {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+
+
+  .main-container .slide-container .slid-card img {
+    width: 71vw;
+    height: 100%;
+  }
 
   /* main page */
   .lhs-section .current-song-detail {
