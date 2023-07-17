@@ -1,5 +1,7 @@
 // declaration the variables
 
+
+
 // 1. selector and declaration variables
 let mainContainer = document.getElementById("mainContainer");
 let category = document.querySelector(".category");
