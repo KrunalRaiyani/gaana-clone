@@ -1189,7 +1189,7 @@ html {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   html {
-    font-size: 60%;
+    font-size: 55%;
   }
 
   /* main page media */
